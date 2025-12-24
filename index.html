@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>new practic task</title>
+    <title>new practice task</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="bg-slate-300 ">
-    <header class="w-10/12 bg-slate-200 mx-auto ">
-        <nav class="p-3 h-20  bg-white mt-6 rounded-2xl flex justify-between">
+<body id="body-bg" class="bg-slate-200">
+    <header class=" w-10/12 mx-auto ">
+        <nav class=" p-3 h-20 bg-white mt-6 rounded-2xl flex justify-between">
             <div class="flex gap-1 items-center">
                 <img class="w-12 p-2" src="./assets/logo.png" alt="logo">
                 <h2 class="text-2xl">Dev<span class="font-bold">Board</span></h2>
@@ -20,7 +20,8 @@
                     <img class="w-7 h-7" src="./assets/checkbox.png" alt="">
                     <h3 class="font-bold text-2xl">23</h3>
                 </div>
-                <button class="p-2 bg-gray-50 rounded-xl"><img src="./assets/theme-btn.png" alt=""></button>
+                <img id="theme-btn" class="cursor-pointer p-2 bg-gray-50 rounded-xl" src="./assets/theme-btn.png"
+                    alt="">
             </div>
         </nav>
         <!-- hero section -->
@@ -182,6 +183,8 @@
 
         </section>
     </header>
+    <script src="./script/theme.js"></script>
+    <script src="./utilites/utilites.js"></script>
 </body>
 
 </html>
