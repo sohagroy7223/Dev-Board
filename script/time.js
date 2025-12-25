@@ -5,6 +5,7 @@ function showTime() {
   let hours = now.getHours();
   let minutes = now.getMinutes();
   let seconds = now.getSeconds();
+  let amPm = now.toDateString();
 
   // 0 থাকলে সামনে 0 বসাবে
   hours = hours < 10 ? "0" + hours : hours;
@@ -12,7 +13,7 @@ function showTime() {
   seconds = seconds < 10 ? "0" + seconds : seconds;
 
   document.getElementById("time").innerText =
-    hours + ":" + minutes + ":" + seconds;
+    hours + ":" + minutes + ":" + seconds + amPm;
 }
 
 // প্রতি 1 সেকেন্ড পর পর update হবে

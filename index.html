@@ -38,17 +38,17 @@
                         </div>
 
                         <div id="Discover-page"
-                            class=" rounded-lg p-1 bg-linear-to-r/decreasing from-[#9BA8F8] to-[#6C7FFA]">
+                            class=" rounded-lg p-1 cursor-pointer bg-linear-to-r/decreasing from-[#9BA8F8] to-[#6C7FFA]">
                             <div class="flex items-center">
                                 <img class="w-16" src="./assets/board.png" alt="">
-                                <p class="text-lg">Discover Something New Today!</p>
+                                <p class="text-lg font-medium">Discover Something New Today!</p>
                             </div>
                         </div>
 
                         <div class="flex items-center bg-slate-300 rounded-lg gap-3 p-2">
                             <img class="w-8 h-8" src="./assets/calender.png" alt="">
                             <div>
-                                <h2 id="time"> </h2>
+                                <h2 id="time" class="font-semibold text-blue-700"> </h2>
                             </div>
                         </div>
                     </div>
@@ -71,7 +71,10 @@
                                         <p class="text-gray-500">Deadline</p>
                                         <h3 class="font-semibold">21 March 2025</h3>
                                     </div>
-                                    <button class="btn bg-blue-700 px-1  text-white rounded-xl">Completed</button>
+                                    <button id="first-btn"
+                                        class="btn bg-blue-700 px-1 cursor-pointer text-white rounded-xl disabled:bg-slate-600 disabled:cursor-not-allowed">
+                                        Completed
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -88,7 +91,8 @@
                                         <p class="text-gray-500">Deadline</p>
                                         <h3 class="font-semibold">21 March 2025</h3>
                                     </div>
-                                    <button class="btn bg-blue-700 px-1  text-white rounded-xl">Completed</button>
+                                    <button
+                                        class="btn bg-blue-700 px-1 cursor-pointer text-white rounded-xl">Completed</button>
                                 </div>
                             </div>
                         </div>
@@ -106,7 +110,8 @@
                                         <p class="text-gray-500">Deadline</p>
                                         <h3 class="font-semibold">21 March 2025</h3>
                                     </div>
-                                    <button class="btn bg-blue-700 px-1  text-white rounded-xl">Completed</button>
+                                    <button
+                                        class="btn bg-blue-700 px-1 cursor-pointer text-white rounded-xl">Completed</button>
                                 </div>
                             </div>
                         </div>
@@ -125,7 +130,8 @@
                                         <p class="text-gray-500">Deadline</p>
                                         <h3 class="font-semibold">21 March 2025</h3>
                                     </div>
-                                    <button class="btn bg-blue-700 px-1  text-white rounded-xl">Completed</button>
+                                    <button
+                                        class="btn bg-blue-700 px-1 cursor-pointer text-white rounded-xl">Completed</button>
                                 </div>
                             </div>
                         </div>
@@ -144,7 +150,8 @@
                                         <p class="text-gray-500">Deadline</p>
                                         <h3 class="font-semibold">21 March 2025</h3>
                                     </div>
-                                    <button class="btn bg-blue-700 px-1  text-white rounded-xl">Completed</button>
+                                    <button
+                                        class="btn bg-blue-700 px-1 cursor-pointer text-white rounded-xl">Completed</button>
                                 </div>
                             </div>
                         </div>
@@ -163,7 +170,8 @@
                                         <p class="text-gray-500">Deadline</p>
                                         <h3 class="font-semibold">21 March 2025</h3>
                                     </div>
-                                    <button class="btn bg-blue-700 px-1  text-white rounded-xl">Completed</button>
+                                    <button
+                                        class="btn bg-blue-700 px-1 cursor-pointer text-white rounded-xl">Completed</button>
                                 </div>
                             </div>
                         </div>
@@ -186,6 +194,8 @@
     <script src="./script/theme.js"></script>
     <script src="./script/Discover.js"></script>
     <script src="./script/time.js"></script>
+    <script src="./script/toggle.js"></script>
+    <script src="./script/home.js"></script>
 </body>
 
 </html>

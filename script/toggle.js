@@ -1,5 +1,6 @@
-document
-  .getElementById("back-home-page")
-  .addEventListener("click", function () {
-    window.location.href = "index.html";
-  });
+const btn = document.getElementById("first-btn");
+
+btn.addEventListener("click", function () {
+  alert("Fix Mobile Button Issue is successful");
+  btn.disabled = true;
+});
