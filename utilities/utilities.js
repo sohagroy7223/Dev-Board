@@ -38,7 +38,7 @@ function activityLogOutput2(id) {
 function activityLogOutput3(id) {
   const history = document.getElementById(id);
   const p = document.createElement("p");
-  p.innerText = "you have complete the task Optimize Home page  is successful ";
+  p.innerText = "you have complete the task Add new emoji 🤲  is successful ";
   history.appendChild(p);
 }
 
@@ -53,6 +53,7 @@ function activityLogOutput4(id) {
 function activityLogOutput5(id) {
   const history = document.getElementById(id);
   const p = document.createElement("p");
-  p.innerText = "you have complete the task Optimize Home page  is successful ";
+  p.innerText =
+    "you have complete the task Improve Job searching is successful ";
   history.appendChild(p);
 }

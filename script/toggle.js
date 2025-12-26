@@ -56,7 +56,7 @@ btn5.addEventListener("click", function () {
 const btn6 = document.getElementById("6th-btn");
 btn6.addEventListener("click", function () {
   btnClickToAddNumber("numbers");
-  btn5.disabled = true;
+  btn6.disabled = true;
 
   btnClickToOddNumber("number");
   activityLogOutput5("history");
