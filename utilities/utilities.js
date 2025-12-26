@@ -15,6 +15,6 @@ function btnClickToOddNumber(id) {
 function activityLogOutput(id) {
   const history = document.getElementById(id);
   const p = document.createElement("p");
-  p.innerText = "you have complete the task Add Dark Mode is successful ";
+  p.innerText = "you have complete the task Optimize Home page is successful ";
   history.appendChild(p);
 }

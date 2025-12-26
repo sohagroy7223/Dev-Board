@@ -19,3 +19,14 @@ btn2.addEventListener("click", function () {
 
   alert("Add Dark Mode is successful");
 });
+
+const btn3 = document.getElementById("3rd-btn");
+btn3.addEventListener("click", function () {
+  btnClickToAddNumber("numbers");
+  btn3.disabled = true;
+
+  btnClickToOddNumber("number");
+  activityLogOutput("history");
+
+  alert("Optimize Home page  is successful");
+});
