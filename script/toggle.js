@@ -30,3 +30,36 @@ btn3.addEventListener("click", function () {
 
   alert("Optimize Home page  is successful");
 });
+
+const btn4 = document.getElementById("4th-btn");
+btn4.addEventListener("click", function () {
+  btnClickToAddNumber("numbers");
+  btn4.disabled = true;
+
+  btnClickToOddNumber("number");
+  activityLogOutput("history");
+
+  alert("Add new emoji 🤲 is successful");
+});
+
+const btn5 = document.getElementById("5th-btn");
+btn5.addEventListener("click", function () {
+  btnClickToAddNumber("numbers");
+  btn5.disabled = true;
+
+  btnClickToOddNumber("number");
+  activityLogOutput("history");
+
+  alert("Integrate OpenAI API is successful");
+});
+
+const btn6 = document.getElementById("6th-btn");
+btn6.addEventListener("click", function () {
+  btnClickToAddNumber("numbers");
+  btn5.disabled = true;
+
+  btnClickToOddNumber("number");
+  activityLogOutput("history");
+
+  alert("Improve Job searching is successful");
+});
