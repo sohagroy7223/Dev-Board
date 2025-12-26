@@ -15,7 +15,6 @@ function btnClickToOddNumber(id) {
 function activityLogOutput(id) {
   const history = document.getElementById(id);
   const p = document.createElement("p");
-  p.innerText =
-    "you have complete the task Fix Mobile Button Issue is successful ";
+  p.innerText = "you have complete the task Add Dark Mode is successful ";
   history.appendChild(p);
 }
