@@ -15,7 +15,7 @@ btn2.addEventListener("click", function () {
   btn2.disabled = true;
 
   btnClickToOddNumber("number");
-  activityLogOutput("history");
+  activityLogOutput1("history");
 
   alert("Add Dark Mode is successful");
 });
@@ -26,7 +26,7 @@ btn3.addEventListener("click", function () {
   btn3.disabled = true;
 
   btnClickToOddNumber("number");
-  activityLogOutput("history");
+  activityLogOutput2("history");
 
   alert("Optimize Home page  is successful");
 });
@@ -37,7 +37,7 @@ btn4.addEventListener("click", function () {
   btn4.disabled = true;
 
   btnClickToOddNumber("number");
-  activityLogOutput("history");
+  activityLogOutput3("history");
 
   alert("Add new emoji 🤲 is successful");
 });
@@ -48,7 +48,7 @@ btn5.addEventListener("click", function () {
   btn5.disabled = true;
 
   btnClickToOddNumber("number");
-  activityLogOutput("history");
+  activityLogOutput4("history");
 
   alert("Integrate OpenAI API is successful");
 });
@@ -59,7 +59,7 @@ btn6.addEventListener("click", function () {
   btn5.disabled = true;
 
   btnClickToOddNumber("number");
-  activityLogOutput("history");
+  activityLogOutput5("history");
 
   alert("Improve Job searching is successful");
 });
